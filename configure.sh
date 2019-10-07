@@ -46,7 +46,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=${INSTALL_PATH} \
     -DCMAKE_C_FLAGS=-fPIC \
     -DCMAKE_CXX_FLAGS=-fPIC \
-    -DBUILD_SHARED_LIBS=ON
+    -DBUILD_SHARED_LIBS=OFF
 
 echo -e "\n"
 echo -e "[CONFIGURE] Finished configuring TinyXML-${TINYXML_VERSION}!"
